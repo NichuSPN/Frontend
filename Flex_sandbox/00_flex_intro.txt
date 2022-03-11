@@ -1,0 +1,6 @@
+main axis : left to right
+cross axis : top to bottom
+
+justify-content : Align along the main axis
+align-items : Align items along the cross axis
+align-content : Align when extra space in cross axis

@@ -1,0 +1,9 @@
+--> header
+--> footer
+--> nav
+--> main
+--> section
+--> article
+--> aside
+
+Replace every div possible with the appropriate semantic tage listed above
