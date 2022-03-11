@@ -1,0 +1,6 @@
+All possible values of positioning:
+-> Static : top,bottom,left,right does not work
+-> Relative : mormal position
+-> Absolute : Relative to parent
+-> Fixed : fix to viewport
+-> Sticky : fix to a position or side

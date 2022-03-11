@@ -1,0 +1,8 @@
+Links used:
+
+Websafe fonts list : https://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+Google fonts : https://fonts.google.com/
+-> Choose your font and press the + button near the font
+-> Copy the link from the 'Use on web tab' and paste it in the head tag section
+-> Use colour code from 'CSS rules to specify families' and use it in the style sheet

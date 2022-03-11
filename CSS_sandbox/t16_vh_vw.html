@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VH & VW</title>
+  <!-- vh represents pecentage of total viewport height -->
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      background: #333 url('https://source.unsplash.com/weekly') no-repeat center center/cover;
+      color: #fff;
+      height: 100vh;
+      text-align: center;
+      padding: 2rem;
+      padding-top: 15rem;
+    }
+
+    header h1{
+      font-size: 3rem;
+    }
+
+    header p{
+      margin: 1rem 0;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      background: #f4f4f4;
+      color: #333;
+      padding: 0.75rem 2rem;
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    @media(max-height: 450px) {
+      header {
+        padding-top: 5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to our website</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, molestiae saepe modi magni eos quaerat.</p>
+    <a href="#" class="btn">Find out more</a>
+  </header>
+
+  <section>
+    <h3>About out company</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium tempore, nesciunt dolorem aliquam perferendis et placeat nobis! A voluptates, qui dolores voluptas obcaecati debitis! Ducimus sequi libero ratione eius, necessitatibus rerum eaque eum sapiente molestias dicta ad temporibus et aperiam soluta voluptatum esse iure natus, eveniet ut a pariatur omnis?</p>
+  </section>
+</body>
+</html>
