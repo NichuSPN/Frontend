@@ -1,0 +1,7 @@
+First install node js and add to path
+
+> npm init -y
+
+> npm install node-sass
+
+> npm run sass 
